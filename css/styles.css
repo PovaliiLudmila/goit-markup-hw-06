@@ -563,6 +563,44 @@ body {
 .footer-list-link:focus {
     background-color: #31D0AA;
 }
+.subscribe-foot {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.subscribe-input {
+    width: 264px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 140px;
+    margin-bottom: 130px;
+    background-color: var(--navy-blue-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+.frame {
+    position: absolute;
+    color: #FFFFFF;   
+
+}
+.subscribe-btn-wrapper {
+    
+}
+.subscribe-btn {
+    position: relative;
+    padding: 8px 24px;
+    background: var(--accent-color);
+    border: none;
+    border-radius: 4px;
+    width: 165px;
+    height: 40px;
+    cursor: pointer;
+}
+.subscribe-btn-wrapper {
+    display: flex;
+}
 .backdrop {
     position: fixed;
     top: 0;
