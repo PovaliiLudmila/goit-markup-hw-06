@@ -748,6 +748,7 @@ body {
     outline: none;
 }
 .modal-form-massage::placeholder {
+    padding-top: 8px;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -755,11 +756,21 @@ body {
     letter-spacing: 0.04em;
     color: rgba(117, 117, 117, 0.5);
 }
+.modal-form-check-desc {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: #757575;
+    margin-bottom: 24px;
+}
 .modal-form-check-desc::before {
     display: block;
     content:'';
     width: 16px;
     height: 16px;
+    margin-right: 8px;
     border: 1.25px solid var(--navy-blue-color);
     border-radius: 2px;
     cursor: pointer;
@@ -770,4 +781,30 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
+}
+.modal-form-check:focus + .modal-form-check-desc::before {
+    border: 1.25px solid #404BBF;
+    border-radius: 2px;
+}
+.modal-form-submit {
+    align-self: center;
+    min-width: 169px;
+    height: 56px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: var(--accent-color);
+    border: var(--accent-color);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.modal-form-submit:hover,
+.modal-form-submit:focus {
+    background: var(--accent-color);
 }
