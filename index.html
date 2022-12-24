@@ -385,15 +385,15 @@
                 </p>
                 <label class="modal-form-fild">
                     <span class="modal-form-input-desc">Name</span>
-                    <input type="text" class="modal-form-input"/>
+                    <input type="text" name="user_name" class="modal-form-input" required pattern="a-zA-zа-яА-я+$" minlength="2"/>
                 </label>
                 <label class="modal-form-fild">
                     <span class="modal-form-input-desc">Phone</span>
-                    <input type="text" class="modal-form-input"/>
+                    <input type="tel" name="user_phone" class="modal-form-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"/>
                 </label>
                 <label class="modal-form-fild">
                     <span class="modal-form-input-desc">Email</span>
-                    <input type="text" class="modal-form-input"/>
+                    <input type="email" name="user_email" class="modal-form-input" required/>
                 </label>
                 <label class="modal-form-fild">
                     <span class="modal-form-input-desc">Comment</span>
