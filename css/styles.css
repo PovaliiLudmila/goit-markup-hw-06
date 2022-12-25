@@ -590,6 +590,7 @@ body {
     margin-top: 16px;
     padding-left: 16px;
     color: #FFFFFF;
+    
 }
 .subscribe-input::placeholder {
     padding-top: 8px;
@@ -600,6 +601,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
 
 }
+
 .subscribe-btn-img {
     fill: #FFFFFF;   
 }
@@ -625,7 +627,7 @@ body {
     height: 40px;
     cursor: pointer;
     color: #FFFFFF;
-    margin-right: 16px;
+
 }
 .subscribe-btn::after {
     content:'';
@@ -634,9 +636,10 @@ body {
     background-color: var(--accent-color);
     background-image: url(../images/Frame\ 3.jpg);
     background-size: contain;
+    margin-left: 16px;
 }
 .subscribe-btn-wrapper {
-    margin-top: 66px;
+    margin-top: 40px;
     
 }
 .backdrop {
