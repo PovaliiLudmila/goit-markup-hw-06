@@ -589,6 +589,16 @@ body {
     border-radius: 4px;
     margin-top: 16px;
 }
+.subscribe-input::placeholder {
+    padding-left: 16px;
+    padding-top: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
 .subscribe-btn-img {
     fill: #FFFFFF;   
 }
@@ -614,12 +624,18 @@ body {
     height: 40px;
     cursor: pointer;
     color: #FFFFFF;
+    margin-right: 16px;
 }
 .subscribe-btn::after {
     content:'';
+    width: 24px;
+    height: 24px;
+    background-color: var(--accent-color);
+    background-image: url(../images/Frame\ 3.jpg);
+    background-size: contain;
 }
 .subscribe-btn-wrapper {
-    
+    margin-top: 66px;
     
 }
 .backdrop {
