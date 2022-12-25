@@ -588,9 +588,10 @@ body {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     margin-top: 16px;
+    padding-left: 16px;
+    color: #FFFFFF;
 }
 .subscribe-input::placeholder {
-    padding-left: 16px;
     padding-top: 8px;
     font-weight: 400;
     font-size: 12px;
