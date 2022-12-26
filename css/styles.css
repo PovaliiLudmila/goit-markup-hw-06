@@ -627,16 +627,15 @@ body {
     height: 40px;
     cursor: pointer;
     color: #FFFFFF;
+    position: relative;
 
 }
-.subscribe-btn::after {
-    content:'';
-    width: 24px;
-    height: 24px;
+.subscribe-icon {
+    position: absolute;
     background-color: var(--accent-color);
-    background-image: url(../images/Frame\ 3.jpg);
-    background-size: contain;
-    margin-left: 16px;
+    color:#FFFFFF;
+    top: 0;
+    right: 0;
 }
 .subscribe-btn-wrapper {
     margin-top: 40px;
