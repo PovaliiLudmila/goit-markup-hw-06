@@ -574,10 +574,8 @@ body {
 .footer-list-link:focus {
     background-color: #31D0AA;
 }
-.subscribe-foot {
+.subscribe {
     display: flex; 
-    justify-content: center;
-    align-items: center;
     gap: 24px;
 }
 .subscribe-input {
@@ -590,7 +588,6 @@ body {
     margin-top: 16px;
     padding-left: 16px;
     color: #FFFFFF;
-    
 }
 .subscribe-input::placeholder {
     padding-top: 8px;
@@ -616,8 +613,10 @@ body {
     margin-left: 80px;
 }
 .subscribe-btn {
-    display: inline-flex;
+    display:flex;
+    justify-content: space-between;
     align-items: center;
+    gap: 16px;
     padding: 8px 24px;
     background: var(--accent-color);
     border: none;
@@ -627,20 +626,12 @@ body {
     height: 40px;
     cursor: pointer;
     color: #FFFFFF;
-    position: relative;
-
+    margin-top: 40px; 
 }
 .subscribe-icon {
-    position: absolute;
-    background-color: var(--accent-color);
-    color:#FFFFFF;
-    top: 0;
-    right: 0;
+    fill: currentColor;
 }
-.subscribe-btn-wrapper {
-    margin-top: 40px;
-    
-}
+
 .backdrop {
     position: fixed;
     top: 0;
