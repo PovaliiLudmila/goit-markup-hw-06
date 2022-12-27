@@ -603,6 +603,7 @@ body {
     fill: #FFFFFF;   
 }
 .subscribe-btn-input {
+    width: 100%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -659,12 +660,16 @@ body {
     transform: translate(-50%,-50%);
     background: #FCFCFC;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 24px;
+    padding-left: 24px;
+    padding-top: 72px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+
 }
 .modal-close-btn {
     position: absolute;
-    top: 32px;
-    right: 32px;
+    top: 24px;
+    right: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -688,7 +693,6 @@ body {
 }
 .modal-name {
     margin-bottom: 14px;
-    margin-top: 48px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -700,7 +704,7 @@ body {
 }
 .modal-form-input {
     width: 100%;
-    height: 24px;
+    height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 38px;
