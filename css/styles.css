@@ -654,7 +654,7 @@ body {
 .modal {
     position: absolute;
     width: 408px;
-    height: 576px;
+    height: 584px;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -692,7 +692,9 @@ body {
 
 }
 .modal-name {
-    margin-bottom: 14px;
+    width: 360px;
+    height: 24px;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -701,6 +703,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--navy-blue-color);
+
 }
 .modal-form-input {
     width: 100%;
@@ -732,6 +735,9 @@ body {
 .modal-form-imput-wrapper {
     display: block;
     position: relative;
+    width: 360px;
+    height: 40px;
+    margin-bottom: 8px;
     color: var(--navy-blue-color);
 }
 .modal-form-input-desc {
@@ -817,6 +823,7 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .modal-form-submit:hover,
 .modal-form-submit:focus {
